@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    /* background-image: url('../img/kraft-2551948_1280.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.box-hero-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+    content: '';
+}
+.scroll-fix-one::before {
+    display: block;
+    margin-top: -4.8rem;
+    height: 4.8rem;
+    content: '';
+}
+
+
+/* Nawigacja */
+
+nav .fa-bars{
+    font-size: 2rem;
+
+}
+
+nav a{
+    font-size: 2.0rem;
+}
+.navbar-brand{
+    font-size: 2.0rem;
+}
+
+/* header */
+
+header .btn{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+header{
+    
+    position: relative;
+    height: 60rem;
+    background-image: url('../img/baner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    border: none;
+}
+
+
+
+/* o nas */
+
+#aboutus{
+    margin-top:0;
+}
+#aboutus h3{
+   font-size: 2.5rem;
+}
+
+/* oferta */
+
+#trainings{
+    padding: 0;
+   
+}
+.home-passion{
+    position: relative;
+    height: 300px;
+    background-image: url('../img/garnki.jpg');
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+}
+
+.accordion .btn{
+    font-size: 2.2rem;
+}
+.box-one{
+  
+    height: 400px;
+    background-image: url('../img/kosz_duzy.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-two{
+   
+    height: 400px;
+    background-image: url('../img/kosz_sredni.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-three{
+   
+    height: 400px;
+    background-image: url('../img/kosz_mały.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.training-subject{
+    font-size: 2rem;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+
+/* kotakt */
+
+#contact{
+    margin-top: 20px;
+    padding: 0.3rem 0;
+    background-color: rgb(248,248,248);}
+#contact h3{
+    font-weight: bold;
+}
+    #contact .contact-info .fas{
+        margin-right: .5rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+.contact-map{
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 996px){
+    .aboutus-order-img{
+        order: 2;
+    }
+    .home-passion{
+        display: none;
+    }
+}
+
+/* duzy koszyk */
+
+.product_list{
+    list-style-type: none;
+}
+.box-wino{
+   
+    height: 400px;
+    background-image: url('../img/wino_musujace.jpg');
+    background-size: contain;
+    background-position: bottom;
+}
+.box-kawa{
+   
+    height: 400px;
+    background-image: url('../img/kawa.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-herbata{
+   
+    height: 400px;
+    background-image: url('../img/herbata.jpeg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-czekolada{
+   
+    height: 400px;
+    background-image: url('../img/duża_cortez.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-czekolada-choinka{
+   
+    height: 400px;
+    background-image: url('../img/Choinka\ maxi\ mleczna.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-kubek{
+   
+    height: 400px;
+    background-image: url('../img/kubek.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-rafaello{
+   
+    height: 400px;
+    background-image: url('../img/rafaello.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.box-czekolada-srednia{
+   
+    height: 400px;
+    background-image: url('../img/Cortez_srednia.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-duzy{
+    height: 400px;
+    background-image: url('../img/duży_bez_folii.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-sredni{
+    height: 400px;
+    background-image: url('../img/sredni_bez_folii.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.box-maly{
+    height: 400px;
+    background-image: url('../img/maly_bez_folii.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.box-wino-male{
+    height: 400px;
+    background-image: url('../img/wino.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
